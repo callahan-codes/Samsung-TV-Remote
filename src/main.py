@@ -6,8 +6,8 @@ from wakeonlan import send_magic_packet
 from pynput import keyboard
 
 # configs
-TV_IP = "10.0.0.245"
-TV_MAC = "B0:F2:F6:C1:82:04"
+TV_IP = "127.0.0.1" # replace with your TV's IP address
+TV_MAC = "A0:B1:C2:D3:67:67" # replace with your TV's MAC address
 
 # token
 TOKEN_DIR = os.path.join(os.environ['APPDATA'], 'SamsungTVRemote')
