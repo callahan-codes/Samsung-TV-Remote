@@ -1,3 +1,6 @@
-/build
-/dist
-TV_Remote.spec
+build/
+dist/
+*.spc
+*.spec
+__pycache__/
+tv_token.txt
