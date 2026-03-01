@@ -27,12 +27,12 @@ def turn_on():
 # remote
 def remote(key):
 
-    # combat input lag
-    global last_press_time
-    current_time = time.time()
-    if current_time - last_press_time < 0.2:
-        return
-    last_press_time = current_time
+    ## combat input lag
+    # global last_press_time
+    # current_time = time.time()
+    # if current_time - last_press_time < 0.2:
+    #     return
+    # last_press_time = current_time
 
     # key bindings
     try:
